@@ -17,5 +17,5 @@ public:
 		std::cout << "valoarea atribuita aleatoriu: " << value << std::endl;
 	//	value = 8;
 	}
-	//bool IsEnable() const override { return true; }
+	bool IsEnable() const override { return true; }
 };
